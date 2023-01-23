@@ -34,6 +34,18 @@ let quotes = [{
 {
     quote: `"Turn your wounds into wisdom."`,
     person: `~Oprah Winfrey`
+},
+{
+    quote: `"You never really learn much from hearing yourself speak."`,
+    person: `~George Clooney`
+},
+{
+    quote: `"Life is like riding a bicycle. To keep your balance, you must keep moving."`,
+    person: `~Albert Einstein`
+},
+{
+    quote: `"Life is a succession of lessons which must be lived to be understood."`,
+    person: `~Helen Keller`
 }
 ]
 
