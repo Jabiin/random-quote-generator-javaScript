@@ -2,7 +2,7 @@ let quote = document.querySelector('span');
 let person = document.querySelector('strong');
 let btn = document.querySelector('button');
 
-
+// api needed
 let quotes = [{
     quote: '"The way to get started is to quit talking and begin doing."',
     person: `~Walt Disney`
