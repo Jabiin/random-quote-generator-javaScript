@@ -3,7 +3,7 @@ let person = document.querySelector('strong');
 let btn = document.querySelector('button');
 
 
-const apiUrl = `http://api.quotable.io/random`;
+const apiUrl = `https://api.quotable.io/random`;
 
 btn.addEventListener('click', getQuote);
 
