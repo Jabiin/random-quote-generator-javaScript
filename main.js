@@ -2,13 +2,11 @@ let quote = document.querySelector('span');
 let person = document.querySelector('strong');
 let btn = document.querySelector('button');
 
-<<<<<<< HEAD
-const apiUrl = `https://api.quotable.io/random?tags=technology,famous-quotes`;
+
+const apiUrl = `http://api.quotable.io/random`;
 
 btn.addEventListener('click', getQuote);
-=======
 
->>>>>>> 5bfa814d5f3a536e079d5a786f01a9378abf7f27
 
 async function getQuote(){
   const data = await fetch(apiUrl)
@@ -18,8 +16,4 @@ async function getQuote(){
   
 } 
 
-<<<<<<< HEAD
-=======
-   
-})
->>>>>>> 5bfa814d5f3a536e079d5a786f01a9378abf7f27
+
